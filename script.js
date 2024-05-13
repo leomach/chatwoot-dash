@@ -1,3 +1,10 @@
 function getContext () {
-   console.log("Contexto: " + window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*'))
+    window.addEventListener("message", function (event) {
+        if (!isJSONValid(event.data)) {
+          return;
+        }
+      
+        const eventData = JSON.parse(event.data);
+        console.log(eventData)
+      })
 }
