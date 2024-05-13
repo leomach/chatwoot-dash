@@ -1,0 +1,9 @@
+.titulo {
+    font-family: sans-serif;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
