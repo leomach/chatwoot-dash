@@ -6,7 +6,9 @@ window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*')
 
 export default function Home() {
   const getContext = () => {
-    console.log(window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*'))
+    if (typeof(window) !== 'undefined'){
+      console.log(window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*'))
+    }
   }
 
   return (
