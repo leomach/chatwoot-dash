@@ -18,13 +18,13 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
 window.addEventListener("message", function (event) {
   const eventData = event.data
   contexto = eventData
-  responsavel = eventData.data.currentAgent.name
-  cliente = eventData.data.contact.name
-  telefone = eventData.data.contact.phone_number
-  redeEscolar = eventData.data.conversation.labels[0]
-  usuario = eventData.data.contact.custom_attributes.tipo_do_usuario
-  canal = eventData.data.conversation.meta.channel
-  descricao = eventData.data.conversation.messages[0].content
+  responsavel = eventData.currentAgent.name
+  cliente = eventData.contact.name
+  telefone = eventData.contact.phone_number
+  redeEscolar = eventData.conversation.labels[0]
+  usuario = eventData.contact.custom_attributes.tipo_do_usuario
+  canal = eventData.conversation.meta.channel
+  descricao = eventData.conversation.messages[0].content
   console.log({
     responsavel: responsavel,
     redeEscolar: redeEscolar,
