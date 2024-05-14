@@ -1,7 +1,6 @@
 function getContext () {
     window.addEventListener("message", function (event) {
-      console.log(window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*'))
-      return window.parent.postMessage('chatwoot-dashboard-app:fetch-info', '*')
+      console.log("clicou no botão")
       }
     )
   }
