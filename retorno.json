@@ -354,3 +354,928 @@
     }
   }
 }
+////////////////////////////////////////////////////////////////////
+{
+  "event": "appContext",
+  "data": {
+    "conversation": {
+      "meta": {
+        "sender": {
+          "additional_attributes": {},
+          "custom_attributes": {
+            "tipo_do_usuario": "Professor"
+          },
+          "email": "kleberr@msn.com",
+          "id": 1,
+          "identifier": null,
+          "name": "Kleber Silva",
+          "phone_number": "+5587999604309",
+          "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--15bdf8142d9c2f0fb8a29c281540db17e6cb17f0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/f39bc3b602de3d7dda0e6ffccb9e2bca.jpeg",
+          "type": "contact"
+        },
+        "assignee": {
+          "id": 5,
+          "name": "Leandro Machado",
+          "available_name": "Leandro Machado",
+          "avatar_url": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49f2555f4c8a234b65c295146b90f1e3b03f9552/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/WhatsApp%20Image%202024-05-09%20at%2016.19.10.jpeg",
+          "type": "user",
+          "availability_status": "online",
+          "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49f2555f4c8a234b65c295146b90f1e3b03f9552/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/WhatsApp%20Image%202024-05-09%20at%2016.19.10.jpeg"
+        },
+        "team": null,
+        "hmac_verified": false
+      },
+      "id": 76,
+      "messages": [
+        {
+          "id": 1197,
+          "content": "Teste",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 0,
+          "content_type": "text",
+          "status": "sent",
+          "content_attributes": {
+            "in_reply_to": null
+          },
+          "created_at": 1715188309,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "additional_attributes": {},
+            "custom_attributes": {
+              "tipo_do_usuario": "Professor"
+            },
+            "email": "kleberr@msn.com",
+            "id": 1,
+            "identifier": null,
+            "name": "Kleber Silva",
+            "phone_number": "+5587999604309",
+            "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--15bdf8142d9c2f0fb8a29c281540db17e6cb17f0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/f39bc3b602de3d7dda0e6ffccb9e2bca.jpeg",
+            "type": "contact"
+          }
+        },
+        {
+          "id": 1198,
+          "content": "Automation System adicionou municipiodemo",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188310,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1200,
+          "content": "Olá",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 1,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188323,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "id": 3,
+            "name": "Marcelo Augusto",
+            "available_name": "Marcelo Augusto",
+            "avatar_url": "",
+            "type": "user",
+            "availability_status": "busy",
+            "thumbnail": ""
+          }
+        },
+        {
+          "id": 1201,
+          "content": "Boa tarde ",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 1,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188328,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "id": 3,
+            "name": "Marcelo Augusto",
+            "available_name": "Marcelo Augusto",
+            "avatar_url": "",
+            "type": "user",
+            "availability_status": "busy",
+            "thumbnail": ""
+          }
+        },
+        {
+          "id": 1202,
+          "content": "no que podemos ajudar?",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 1,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188332,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "id": 3,
+            "name": "Marcelo Augusto",
+            "available_name": "Marcelo Augusto",
+            "avatar_url": "",
+            "type": "user",
+            "availability_status": "busy",
+            "thumbnail": ""
+          }
+        },
+        {
+          "id": 1204,
+          "content": "Kleber Soares atribuiu a si mesmo essa conversa",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188384,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1205,
+          "content": "teste",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 1,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715188399,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "id": 1,
+            "name": "Kleber Soares",
+            "available_name": "Kleber Soares",
+            "avatar_url": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e6981f8e5a8c90783844b4063e30e05002e37c64/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWZvdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--dcde7ba20a1ca4c15a045ef5aa7d68df1b8ec3ba/eu.jpg",
+            "type": "user",
+            "availability_status": "online",
+            "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e6981f8e5a8c90783844b4063e30e05002e37c64/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWZvdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--dcde7ba20a1ca4c15a045ef5aa7d68df1b8ec3ba/eu.jpg"
+          }
+        },
+        {
+          "id": 1226,
+          "content": "Conversa foi marcada como resolvida por Kleber Soares",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "read",
+          "content_attributes": {},
+          "created_at": 1715189210,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1227,
+          "content": "Por favor, classifique a conversa",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 3,
+          "content_type": "input_csat",
+          "status": "read",
+          "content_attributes": {
+            "submitted_values": {
+              "csat_survey_response": {
+                "feedback_message": "",
+                "rating": 5
+              }
+            }
+          },
+          "created_at": 1715189210,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1228,
+          "content": "Conversa foi marcada como pendente por Kleber Soares",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "sent",
+          "content_attributes": {},
+          "created_at": 1715189949,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1229,
+          "content": "Kleber Soares definiu a prioridade para urgent",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "sent",
+          "content_attributes": {},
+          "created_at": 1715189980,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1230,
+          "content": "Conversa foi reaberta por Kleber Soares",
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "content_type": "text",
+          "status": "sent",
+          "content_attributes": {},
+          "created_at": 1715190004,
+          "private": false,
+          "source_id": null
+        },
+        {
+          "id": 1231,
+          "content": "Conversa não atribuída por Kleber Soares",
+          "account_id": 1,
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "message_type": 2,
+          "created_at": 1715190194,
+          "updated_at": "2024-05-08T17:43:15.288Z",
+          "private": false,
+          "status": "sent",
+          "source_id": null,
+          "content_type": "text",
+          "content_attributes": {},
+          "sender_type": null,
+          "sender_id": null,
+          "external_source_ids": {
+            "slack": "cw-origin-1715190195.156539"
+          },
+          "additional_attributes": {},
+          "processed_message_content": "Conversa não atribuída por Kleber Soares",
+          "sentiment": {},
+          "conversation": {
+            "assignee_id": 1,
+            "unread_count": 0,
+            "last_activity_at": 1715190194,
+            "contact_inbox": {
+              "source_id": "aa193f71-157b-491b-8bc0-983d92adbb9b"
+            }
+          }
+        },
+        {
+          "message_type": 2,
+          "content_type": "text",
+          "processed_message_content": "Leandro Machado atribuiu a si mesmo essa conversa",
+          "id": 1835,
+          "content": "Leandro Machado atribuiu a si mesmo essa conversa",
+          "account_id": 1,
+          "inbox_id": 1,
+          "conversation_id": 76,
+          "created_at": 1715713913,
+          "updated_at": "2024-05-14T19:11:54.093Z",
+          "private": false,
+          "status": "sent",
+          "source_id": null,
+          "content_attributes": {},
+          "sender_type": null,
+          "sender_id": null,
+          "external_source_ids": {
+            "slack": "cw-origin-1715713913.961869"
+          },
+          "additional_attributes": {},
+          "sentiment": {},
+          "conversation": {
+            "assignee_id": 5,
+            "unread_count": 0,
+            "last_activity_at": 1715713913,
+            "contact_inbox": {
+              "source_id": "aa193f71-157b-491b-8bc0-983d92adbb9b"
+            }
+          },
+          "previous_changes": {
+            "updated_at": [
+              "2024-05-14T19:11:53.513Z",
+              "2024-05-14T19:11:54.093Z"
+            ],
+            "external_source_ids": [
+              {},
+              {
+                "slack": "cw-origin-1715713913.961869"
+              }
+            ]
+          }
+        }
+      ],
+      "account_id": 1,
+      "uuid": "ad3036bd-5fd4-41b0-8d91-5de1bd7d8098",
+      "additional_attributes": {
+        "browser": {
+          "device_name": "Unknown",
+          "browser_name": "Chrome",
+          "platform_name": "macOS",
+          "browser_version": "124.0.0.0",
+          "platform_version": "10.15.7"
+        },
+        "referer": "https://municipiodemo.meudiarioescolar.com.br/accounts/login/?next=/",
+        "initiated_at": {
+          "timestamp": "Wed May 08 2024 14:11:48 GMT-0300 (Brasilia Standard Time)"
+        },
+        "browser_language": "en"
+      },
+      "agent_last_seen_at": 1715713906,
+      "assignee_last_seen_at": 1715278222,
+      "can_reply": true,
+      "contact_last_seen_at": 1715189226,
+      "custom_attributes": {},
+      "inbox_id": 1,
+      "labels": [
+        "municipiodemo"
+      ],
+      "muted": false,
+      "snoozed_until": null,
+      "status": "open",
+      "created_at": 1715188309,
+      "timestamp": 1715713913,
+      "first_reply_created_at": "2024-05-08T17:12:03.576Z",
+      "unread_count": 0,
+      "last_non_activity_message": {
+        "id": 1227,
+        "content": "Por favor, classifique a conversa",
+        "account_id": 1,
+        "inbox_id": 1,
+        "conversation_id": 76,
+        "message_type": 3,
+        "created_at": 1715189210,
+        "updated_at": "2024-05-08T17:27:22.998Z",
+        "private": false,
+        "status": "read",
+        "source_id": null,
+        "content_type": "input_csat",
+        "content_attributes": {
+          "submitted_values": {
+            "csat_survey_response": {
+              "feedback_message": "",
+              "rating": 5
+            }
+          }
+        },
+        "sender_type": null,
+        "sender_id": null,
+        "external_source_ids": {
+          "slack": "cw-origin-1715189213.269589"
+        },
+        "additional_attributes": {},
+        "processed_message_content": "Por favor, classifique a conversa",
+        "sentiment": {},
+        "conversation": {
+          "assignee_id": 1,
+          "unread_count": 0,
+          "last_activity_at": 1715190194,
+          "contact_inbox": {
+            "source_id": "aa193f71-157b-491b-8bc0-983d92adbb9b"
+          }
+        }
+      },
+      "last_activity_at": 1715713913,
+      "priority": "urgent",
+      "waiting_since": 0,
+      "sla_policy_id": null,
+      "allMessagesLoaded": false,
+      "dataFetched": true,
+      "attachments": [],
+      "channel": "Channel::WebWidget",
+      "contact_inbox": {
+        "id": 5333,
+        "contact_id": 1,
+        "inbox_id": 1,
+        "source_id": "aa193f71-157b-491b-8bc0-983d92adbb9b",
+        "created_at": "2024-05-08T17:10:08.863Z",
+        "updated_at": "2024-05-08T17:11:49.224Z",
+        "hmac_verified": false,
+        "pubsub_token": "L6MpDkjAz9y51KQaiwwNwgo7"
+      },
+      "performer": {
+        "id": 5,
+        "name": "Leandro Machado",
+        "available_name": "Leandro Machado",
+        "avatar_url": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49f2555f4c8a234b65c295146b90f1e3b03f9552/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/WhatsApp%20Image%202024-05-09%20at%2016.19.10.jpeg",
+        "type": "user",
+        "availability_status": "online",
+        "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49f2555f4c8a234b65c295146b90f1e3b03f9552/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/WhatsApp%20Image%202024-05-09%20at%2016.19.10.jpeg"
+      }
+    },
+    "contact": {
+      "additional_attributes": {},
+      "email": "kleberr@msn.com",
+      "id": 1,
+      "name": "Kleber Silva",
+      "phone_number": "+5587999604309",
+      "identifier": null,
+      "thumbnail": "https://chat.souedus.com.br/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--15bdf8142d9c2f0fb8a29c281540db17e6cb17f0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fc2ded670e2db270d6fbdd40d9e9d2f1dc941ab4/f39bc3b602de3d7dda0e6ffccb9e2bca.jpeg",
+      "custom_attributes": {
+        "tipo_do_usuario": "Professor"
+      },
+      "last_activity_at": 1715188309,
+      "created_at": 1714096865,
+      "contactableInboxes": [],
+      "contact_inboxes": [
+        {
+          "source_id": "f9da4215-18f0-4d2b-bf08-4c2585d59c7f",
+          "inbox": {
+            "id": 1,
+            "avatar_url": "",
+            "channel_id": 1,
+            "name": "Meu Diário Escolar",
+            "channel_type": "Channel::WebWidget",
+            "greeting_enabled": false,
+            "greeting_message": "",
+            "working_hours_enabled": true,
+            "enable_email_collect": false,
+            "csat_survey_enabled": true,
+            "enable_auto_assignment": false,
+            "auto_assignment_config": {
+              "max_assignment_limit": null
+            },
+            "out_of_office_message": "Olá, nosso horário de atendimento é de segunda a sexta, das 8h às 17h. Seu chamado foi registrado e em breve entraremos em contato através do seu whatsapp ou email.",
+            "working_hours": [
+              {
+                "day_of_week": 0,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 1,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 2,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 3,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 4,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 5,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 6,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              }
+            ],
+            "timezone": "America/Sao_Paulo",
+            "callback_webhook_url": null,
+            "allow_messages_after_resolved": false,
+            "lock_to_single_conversation": false,
+            "sender_name_type": "friendly",
+            "business_name": null,
+            "widget_color": "#00E019",
+            "website_url": ".meudiarioescolar.com.br",
+            "hmac_mandatory": false,
+            "welcome_title": "",
+            "welcome_tagline": "",
+            "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"https://chat.souedus.com.br\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.defer = true;\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'VjWum8nWjTBdSor61arh26yF',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+            "website_token": "VjWum8nWjTBdSor61arh26yF",
+            "selected_feature_flags": [
+              "attachments",
+              "emoji_picker",
+              "end_conversation"
+            ],
+            "reply_time": "in_a_few_minutes",
+            "hmac_token": "gBhCjimQGsJQ8sp1Arcw4nZG",
+            "pre_chat_form_enabled": true,
+            "pre_chat_form_options": {
+              "pre_chat_fields": [
+                {
+                  "name": "emailAddress",
+                  "type": "email",
+                  "label": "Email",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: meunome@email.com"
+                },
+                {
+                  "name": "fullName",
+                  "type": "text",
+                  "label": "Nome",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Meu Nome"
+                },
+                {
+                  "name": "phoneNumber",
+                  "type": "text",
+                  "label": "WhatsApp",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: 81981919647"
+                },
+                {
+                  "name": "tipo_do_usuario",
+                  "type": "list",
+                  "label": "Tipo do Usuário",
+                  "values": [
+                    "Professor",
+                    "Coodernador",
+                    "Secretaria de Educação",
+                    "Equipe de Integração",
+                    "Equipe Administrativa"
+                  ],
+                  "enabled": true,
+                  "required": true,
+                  "regex_cue": null,
+                  "field_type": "contact_attribute",
+                  "placeholder": "Tipo do Usuário",
+                  "regex_pattern": null
+                }
+              ],
+              "pre_chat_message": "Para iniciar uma conversa preencha seus dados e deixe sua mensagem."
+            },
+            "continuity_via_email": false,
+            "messaging_service_sid": null,
+            "phone_number": null,
+            "provider": null
+          }
+        },
+        {
+          "source_id": "adceedf9-70ed-44b1-bc3f-40fbdcfd3d47",
+          "inbox": {
+            "id": 1,
+            "avatar_url": "",
+            "channel_id": 1,
+            "name": "Meu Diário Escolar",
+            "channel_type": "Channel::WebWidget",
+            "greeting_enabled": false,
+            "greeting_message": "",
+            "working_hours_enabled": true,
+            "enable_email_collect": false,
+            "csat_survey_enabled": true,
+            "enable_auto_assignment": false,
+            "auto_assignment_config": {
+              "max_assignment_limit": null
+            },
+            "out_of_office_message": "Olá, nosso horário de atendimento é de segunda a sexta, das 8h às 17h. Seu chamado foi registrado e em breve entraremos em contato através do seu whatsapp ou email.",
+            "working_hours": [
+              {
+                "day_of_week": 0,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 1,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 2,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 3,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 4,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 5,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 6,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              }
+            ],
+            "timezone": "America/Sao_Paulo",
+            "callback_webhook_url": null,
+            "allow_messages_after_resolved": false,
+            "lock_to_single_conversation": false,
+            "sender_name_type": "friendly",
+            "business_name": null,
+            "widget_color": "#00E019",
+            "website_url": ".meudiarioescolar.com.br",
+            "hmac_mandatory": false,
+            "welcome_title": "",
+            "welcome_tagline": "",
+            "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"https://chat.souedus.com.br\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.defer = true;\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'VjWum8nWjTBdSor61arh26yF',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+            "website_token": "VjWum8nWjTBdSor61arh26yF",
+            "selected_feature_flags": [
+              "attachments",
+              "emoji_picker",
+              "end_conversation"
+            ],
+            "reply_time": "in_a_few_minutes",
+            "hmac_token": "gBhCjimQGsJQ8sp1Arcw4nZG",
+            "pre_chat_form_enabled": true,
+            "pre_chat_form_options": {
+              "pre_chat_fields": [
+                {
+                  "name": "emailAddress",
+                  "type": "email",
+                  "label": "Email",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: meunome@email.com"
+                },
+                {
+                  "name": "fullName",
+                  "type": "text",
+                  "label": "Nome",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Meu Nome"
+                },
+                {
+                  "name": "phoneNumber",
+                  "type": "text",
+                  "label": "WhatsApp",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: 81981919647"
+                },
+                {
+                  "name": "tipo_do_usuario",
+                  "type": "list",
+                  "label": "Tipo do Usuário",
+                  "values": [
+                    "Professor",
+                    "Coodernador",
+                    "Secretaria de Educação",
+                    "Equipe de Integração",
+                    "Equipe Administrativa"
+                  ],
+                  "enabled": true,
+                  "required": true,
+                  "regex_cue": null,
+                  "field_type": "contact_attribute",
+                  "placeholder": "Tipo do Usuário",
+                  "regex_pattern": null
+                }
+              ],
+              "pre_chat_message": "Para iniciar uma conversa preencha seus dados e deixe sua mensagem."
+            },
+            "continuity_via_email": false,
+            "messaging_service_sid": null,
+            "phone_number": null,
+            "provider": null
+          }
+        },
+        {
+          "source_id": "aa193f71-157b-491b-8bc0-983d92adbb9b",
+          "inbox": {
+            "id": 1,
+            "avatar_url": "",
+            "channel_id": 1,
+            "name": "Meu Diário Escolar",
+            "channel_type": "Channel::WebWidget",
+            "greeting_enabled": false,
+            "greeting_message": "",
+            "working_hours_enabled": true,
+            "enable_email_collect": false,
+            "csat_survey_enabled": true,
+            "enable_auto_assignment": false,
+            "auto_assignment_config": {
+              "max_assignment_limit": null
+            },
+            "out_of_office_message": "Olá, nosso horário de atendimento é de segunda a sexta, das 8h às 17h. Seu chamado foi registrado e em breve entraremos em contato através do seu whatsapp ou email.",
+            "working_hours": [
+              {
+                "day_of_week": 0,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 1,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 2,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 3,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 4,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 5,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 6,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              }
+            ],
+            "timezone": "America/Sao_Paulo",
+            "callback_webhook_url": null,
+            "allow_messages_after_resolved": false,
+            "lock_to_single_conversation": false,
+            "sender_name_type": "friendly",
+            "business_name": null,
+            "widget_color": "#00E019",
+            "website_url": ".meudiarioescolar.com.br",
+            "hmac_mandatory": false,
+            "welcome_title": "",
+            "welcome_tagline": "",
+            "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"https://chat.souedus.com.br\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.defer = true;\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'VjWum8nWjTBdSor61arh26yF',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+            "website_token": "VjWum8nWjTBdSor61arh26yF",
+            "selected_feature_flags": [
+              "attachments",
+              "emoji_picker",
+              "end_conversation"
+            ],
+            "reply_time": "in_a_few_minutes",
+            "hmac_token": "gBhCjimQGsJQ8sp1Arcw4nZG",
+            "pre_chat_form_enabled": true,
+            "pre_chat_form_options": {
+              "pre_chat_fields": [
+                {
+                  "name": "emailAddress",
+                  "type": "email",
+                  "label": "Email",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: meunome@email.com"
+                },
+                {
+                  "name": "fullName",
+                  "type": "text",
+                  "label": "Nome",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Meu Nome"
+                },
+                {
+                  "name": "phoneNumber",
+                  "type": "text",
+                  "label": "WhatsApp",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: 81981919647"
+                },
+                {
+                  "name": "tipo_do_usuario",
+                  "type": "list",
+                  "label": "Tipo do Usuário",
+                  "values": [
+                    "Professor",
+                    "Coodernador",
+                    "Secretaria de Educação",
+                    "Equipe de Integração",
+                    "Equipe Administrativa"
+                  ],
+                  "enabled": true,
+                  "required": true,
+                  "regex_cue": null,
+                  "field_type": "contact_attribute",
+                  "placeholder": "Tipo do Usuário",
+                  "regex_pattern": null
+                }
+              ],
+              "pre_chat_message": "Para iniciar uma conversa preencha seus dados e deixe sua mensagem."
+            },
+            "continuity_via_email": false,
+            "messaging_service_sid": null,
+            "phone_number": null,
+            "provider": null
+          }
+        }
+      ],
+      "type": "contact"
+    },
+    "currentAgent": {
+      "id": 5,
+      "name": "Leandro Machado",
+      "email": "leandrovictoram@gmail.com"
+    }
+  }
+}
