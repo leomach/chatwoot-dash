@@ -1,0 +1,356 @@
+{
+  "event": "appContext",
+  "data": {
+    "conversation": {
+      "meta": {
+        "sender": {
+          "additional_attributes": {},
+          "availability_status": "offline",
+          "email": "leandrovictoram@gmail.com",
+          "id": 6061,
+          "name": "Leandro Victor Alves Machado",
+          "phone_number": "+5587981484518",
+          "identifier": null,
+          "thumbnail": "",
+          "custom_attributes": {
+            "tipo_do_usuario": "Equipe Administrativa"
+          },
+          "last_activity_at": 1715695994,
+          "created_at": 1715689221
+        },
+        "channel": "Channel::WebWidget",
+        "hmac_verified": false
+      },
+      "id": 109,
+      "messages": [
+        {
+          "id": 1793,
+          "content": "Teste",
+          "inbox_id": 1,
+          "conversation_id": 109,
+          "message_type": 0,
+          "content_type": "text",
+          "status": "sent",
+          "content_attributes": {
+            "in_reply_to": null
+          },
+          "created_at": 1715695994,
+          "private": false,
+          "source_id": null,
+          "sender": {
+            "additional_attributes": {},
+            "custom_attributes": {
+              "tipo_do_usuario": "Equipe Administrativa"
+            },
+            "email": "leandrovictoram@gmail.com",
+            "id": 6061,
+            "identifier": null,
+            "name": "Leandro Victor Alves Machado",
+            "phone_number": "+5587981484518",
+            "thumbnail": "",
+            "type": "contact"
+          }
+        },
+        {
+          "id": 1794,
+          "content": "Automation System adicionou lajedo",
+          "account_id": 1,
+          "inbox_id": 1,
+          "conversation_id": 109,
+          "message_type": 2,
+          "created_at": 1715695996,
+          "updated_at": "2024-05-14T14:13:16.705Z",
+          "private": false,
+          "status": "sent",
+          "source_id": null,
+          "content_type": "text",
+          "content_attributes": {},
+          "sender_type": null,
+          "sender_id": null,
+          "external_source_ids": {
+            "slack": "cw-origin-1715695996.582139"
+          },
+          "additional_attributes": {},
+          "processed_message_content": "Automation System adicionou lajedo",
+          "sentiment": {},
+          "conversation": {
+            "assignee_id": null,
+            "unread_count": 0,
+            "last_activity_at": 1715695996,
+            "contact_inbox": {
+              "source_id": "f340b85a-5a7d-442e-b154-24661ad4f39d"
+            }
+          }
+        }
+      ],
+      "account_id": 1,
+      "uuid": "1f394168-5dc3-47ec-a125-05ef83f4dd2b",
+      "additional_attributes": {
+        "browser": {
+          "device_name": "Unknown",
+          "browser_name": "Chrome",
+          "platform_name": "Windows",
+          "browser_version": "124.0.0.0",
+          "platform_version": "10.0"
+        },
+        "referer": "https://lajedo.meudiarioescolar.com.br/inicio",
+        "initiated_at": {
+          "timestamp": "Tue May 14 2024 11:13:14 GMT-0300 (Horário Padrão de Brasília)"
+        },
+        "browser_language": "pt"
+      },
+      "agent_last_seen_at": 1715697558,
+      "assignee_last_seen_at": 0,
+      "can_reply": true,
+      "contact_last_seen_at": 1715695995,
+      "custom_attributes": {},
+      "inbox_id": 1,
+      "labels": [
+        "lajedo"
+      ],
+      "muted": false,
+      "snoozed_until": null,
+      "status": "open",
+      "created_at": 1715695994,
+      "timestamp": 1715695996,
+      "first_reply_created_at": 0,
+      "unread_count": 0,
+      "last_non_activity_message": {
+        "id": 1793,
+        "content": "Teste",
+        "account_id": 1,
+        "inbox_id": 1,
+        "conversation_id": 109,
+        "message_type": 0,
+        "created_at": 1715695994,
+        "updated_at": "2024-05-14T14:13:15.668Z",
+        "private": false,
+        "status": "sent",
+        "source_id": null,
+        "content_type": "text",
+        "content_attributes": {
+          "in_reply_to": null
+        },
+        "sender_type": "Contact",
+        "sender_id": 6061,
+        "external_source_ids": {
+          "slack": "cw-origin-1715695995.485129"
+        },
+        "additional_attributes": {},
+        "processed_message_content": "Teste",
+        "sentiment": {},
+        "conversation": {
+          "assignee_id": null,
+          "unread_count": 0,
+          "last_activity_at": 1715695996,
+          "contact_inbox": {
+            "source_id": "f340b85a-5a7d-442e-b154-24661ad4f39d"
+          }
+        },
+        "sender": {
+          "additional_attributes": {},
+          "custom_attributes": {
+            "tipo_do_usuario": "Equipe Administrativa"
+          },
+          "email": "leandrovictoram@gmail.com",
+          "id": 6061,
+          "identifier": null,
+          "name": "Leandro Victor Alves Machado",
+          "phone_number": "+5587981484518",
+          "thumbnail": "",
+          "type": "contact"
+        }
+      },
+      "last_activity_at": 1715695996,
+      "priority": null,
+      "waiting_since": 1715695994,
+      "sla_policy_id": null,
+      "allMessagesLoaded": false,
+      "dataFetched": true,
+      "attachments": []
+    },
+    "contact": {
+      "additional_attributes": {},
+      "availability_status": "offline",
+      "email": "leandrovictoram@gmail.com",
+      "id": 6061,
+      "name": "Leandro Victor Alves Machado",
+      "phone_number": "+5587981484518",
+      "identifier": null,
+      "thumbnail": "",
+      "custom_attributes": {
+        "tipo_do_usuario": "Equipe Administrativa"
+      },
+      "last_activity_at": 1715695994,
+      "created_at": 1715689221,
+      "contactableInboxes": [],
+      "contact_inboxes": [
+        {
+          "source_id": "f340b85a-5a7d-442e-b154-24661ad4f39d",
+          "inbox": {
+            "id": 1,
+            "avatar_url": "",
+            "channel_id": 1,
+            "name": "Meu Diário Escolar",
+            "channel_type": "Channel::WebWidget",
+            "greeting_enabled": false,
+            "greeting_message": "",
+            "working_hours_enabled": true,
+            "enable_email_collect": false,
+            "csat_survey_enabled": true,
+            "enable_auto_assignment": false,
+            "auto_assignment_config": {
+              "max_assignment_limit": null
+            },
+            "out_of_office_message": "Olá, nosso horário de atendimento é de segunda a sexta, das 8h às 17h. Seu chamado foi registrado e em breve entraremos em contato através do seu whatsapp ou email.",
+            "working_hours": [
+              {
+                "day_of_week": 0,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 1,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 2,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 3,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 4,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 5,
+                "closed_all_day": false,
+                "open_hour": 8,
+                "open_minutes": 0,
+                "close_hour": 17,
+                "close_minutes": 0,
+                "open_all_day": false
+              },
+              {
+                "day_of_week": 6,
+                "closed_all_day": true,
+                "open_hour": null,
+                "open_minutes": null,
+                "close_hour": null,
+                "close_minutes": null,
+                "open_all_day": false
+              }
+            ],
+            "timezone": "America/Sao_Paulo",
+            "callback_webhook_url": null,
+            "allow_messages_after_resolved": false,
+            "lock_to_single_conversation": false,
+            "sender_name_type": "friendly",
+            "business_name": null,
+            "widget_color": "#00E019",
+            "website_url": ".meudiarioescolar.com.br",
+            "hmac_mandatory": false,
+            "welcome_title": "",
+            "welcome_tagline": "",
+            "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"https://chat.souedus.com.br\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.defer = true;\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'VjWum8nWjTBdSor61arh26yF',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+            "website_token": "VjWum8nWjTBdSor61arh26yF",
+            "selected_feature_flags": [
+              "attachments",
+              "emoji_picker",
+              "end_conversation"
+            ],
+            "reply_time": "in_a_few_minutes",
+            "hmac_token": "gBhCjimQGsJQ8sp1Arcw4nZG",
+            "pre_chat_form_enabled": true,
+            "pre_chat_form_options": {
+              "pre_chat_fields": [
+                {
+                  "name": "emailAddress",
+                  "type": "email",
+                  "label": "Email",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: meunome@email.com"
+                },
+                {
+                  "name": "fullName",
+                  "type": "text",
+                  "label": "Nome",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Meu Nome"
+                },
+                {
+                  "name": "phoneNumber",
+                  "type": "text",
+                  "label": "WhatsApp",
+                  "enabled": true,
+                  "required": true,
+                  "field_type": "standard",
+                  "placeholder": "Ex: 81981919647"
+                },
+                {
+                  "name": "tipo_do_usuario",
+                  "type": "list",
+                  "label": "Tipo do Usuário",
+                  "values": [
+                    "Professor",
+                    "Coodernador",
+                    "Secretaria de Educação",
+                    "Equipe de Integração",
+                    "Equipe Administrativa"
+                  ],
+                  "enabled": true,
+                  "required": true,
+                  "regex_cue": null,
+                  "field_type": "contact_attribute",
+                  "placeholder": "Tipo do Usuário",
+                  "regex_pattern": null
+                }
+              ],
+              "pre_chat_message": "Para iniciar uma conversa preencha seus dados e deixe sua mensagem."
+            },
+            "continuity_via_email": false,
+            "messaging_service_sid": null,
+            "phone_number": null,
+            "provider": null
+          }
+        }
+      ]
+    },
+    "currentAgent": {
+      "id": 5,
+      "name": "Leandro Machado",
+      "email": "leandrovictoram@gmail.com"
+    }
+  }
+}
