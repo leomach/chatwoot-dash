@@ -34,25 +34,28 @@ async function postContext() {
     },
 
     body: JSON.stringify({
-      mutation: `{
-            createCard(input: {
-              pipe_id: 301394535,
-              title: "Teste leandro",
-              fields_attributes: [
-                {field_id: "respons_veis_pelo_atendimento", field_value: 304779060},
-                {field_id: "qual_o_nome_do_solicitante", field_value: "Teste 123"},
-                {field_id: "telefone", field_value: "95252616"},
-                {field_id: "rede_escolarr", field_value: "487284757"},
-                {field_id: "selecione_qual_o_seu_tipo_de_usu_rio_por_favor", field_value: "Equipe administrativa"},
-                {field_id: "tipo_de_solicita_o", field_value: "Dúvida"},
-                {field_id: "canal_de_atendimento", field_value: "Whatsapp"},
-                {field_id: "descreve_aqui_sua_solicita_o_por_favor", field_value: "Whatsapp"},
-              ]
-            }) {
-              card {
-                title
-              }
+      query: `{
+        mutation {
+          createCard(input: {
+            pipe_id: 301394535,
+            title: "Teste leandro",
+            fields_attributes: [
+              {field_id: "respons_veis_pelo_atendimento", field_value: 304779060},
+              {field_id: "qual_o_nome_do_solicitante", field_value: "Teste 123"},
+              {field_id: "telefone", field_value: "95252616"},
+              {field_id: "rede_escolarr", field_value: "487284757"},
+              {field_id: "selecione_qual_o_seu_tipo_de_usu_rio_por_favor", field_value: "Equipe administrativa"},
+              {field_id: "tipo_de_solicita_o", field_value: "Dúvida"},
+              {field_id: "canal_de_atendimento", field_value: "Whatsapp"},
+              {field_id: "descreve_aqui_sua_solicita_o_por_favor", field_value: "Whatsapp"},
+            ]
+          }
+          ) {
+            card {
+              title
             }
+          }
+        }
         }`
     })
   })
