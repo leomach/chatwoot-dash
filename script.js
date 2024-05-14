@@ -1,8 +1,5 @@
 function getContext() {
-  window.addEventListener("message", function (event) {
-    console.log("clicou no botão de teste")
-  }
-  )
+  console.log("clicou no botão de teste")
 }
 
 let contexto = {}
@@ -35,8 +32,7 @@ async function postContext() {
 
     body: JSON.stringify({
       query: `{
-        mutation {
-          createCard(input: {
+        mutation createCard(input: {
             pipe_id: 301394535,
             title: "Teste leandro",
             fields_attributes: [
@@ -55,7 +51,7 @@ async function postContext() {
               title
             }
           }
-        }
+        
         }`
     })
   })
