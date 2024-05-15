@@ -305,6 +305,7 @@ function postContext() {
 
 function getResponsavelID(nome) {
   let responsavel = membros.find(e => e.user.name === nome)
+  console.log(responsavel)
   let id = responsavel.user.id
   return id;
 }
