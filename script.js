@@ -214,7 +214,7 @@ var canais = [
   },
   {
     pipe: "Whatsapp",
-    chat: ""
+    chat: "Channel::Whatsapp"
   },
 ]
 
