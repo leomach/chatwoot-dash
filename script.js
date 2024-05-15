@@ -23,7 +23,7 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
 )
 
 function getAttributes() {
-  responsavel = contexto.data
+  responsavel = contexto.data.currentAgent.name
   console.log(responsavel)
   cliente = contexto.data.contact.name
   telefone = contexto.data.contact.phone_number
