@@ -15,7 +15,7 @@ let descricao = ''
 const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEsImp0aSI6ImIxYjMzNGE1LWZhNDEtNDg3Ni1iMTVkLTRiZmI0NWU0ZjRlNCIsInN1YiI6MzA0Nzc5MDYwfQ.RSkmIyHUhIbarqTWY9bgQbDwfgEwSwMGB7Z-l_CjYpI3rdvnQSQ2ronfdajjKnXs36WHg5HPCooL8UOIFhiFNg'
 
  window.addEventListener("message", function (event) {
-  const eventData = event.data
+  const eventData = event
   contexto = eventData
   console.log(contexto)
   responsavel = eventData.data.currentAgent.name
