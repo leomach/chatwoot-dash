@@ -239,7 +239,7 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
 )
 
 function getAttributes() {
-  let reponsavelPipe = getResponsavelID(contexto.data.currentAgent.name)
+  let responsavelPipe = getResponsavelID(contexto.data.currentAgent.name)
   responsavel = responsavelPipe
 
   cliente = contexto.data.contact.name
