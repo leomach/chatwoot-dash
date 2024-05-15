@@ -17,7 +17,7 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
  window.addEventListener("message", function (event) {
   const eventData = event.data
   contexto = eventData
-  console.log({ contexto: contexto })
+  console.log(contexto)
   responsavel = eventData.data.currentAgent.name
   cliente = eventData.data.contact.name
   telefone = eventData.data.contact.phone_number
