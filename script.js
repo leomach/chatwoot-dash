@@ -2,15 +2,15 @@ function getContext() {
   console.log("clicou no botão de teste")
 }
 
-let contexto = {}
-let responsavel = ''
-let cliente = ''
-let telefone = ''
-let redeEscolar = ''
-let usuario = ''
-let tipo = ''
-let canal = ''
-let descricao = ''
+var contexto = {}
+var responsavel = ''
+var cliente = ''
+var telefone = ''
+var redeEscolar = ''
+var usuario = ''
+var tipo = ''
+var canal = ''
+var descricao = ''
 
 const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEsImp0aSI6ImIxYjMzNGE1LWZhNDEtNDg3Ni1iMTVkLTRiZmI0NWU0ZjRlNCIsInN1YiI6MzA0Nzc5MDYwfQ.RSkmIyHUhIbarqTWY9bgQbDwfgEwSwMGB7Z-l_CjYpI3rdvnQSQ2ronfdajjKnXs36WHg5HPCooL8UOIFhiFNg'
 
@@ -18,13 +18,17 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
   const eventData = event.data
   contexto = eventData
   console.log(contexto)
-  responsavel = eventData.data.currentAgent.name
-  cliente = eventData.data.contact.name
-  telefone = eventData.data.contact.phone_number
-  redeEscolar = eventData.data.conversation.labels[0]
-  usuario = eventData.data.contact.custom_attributes.tipo_do_usuario
-  canal = eventData.data.conversation.meta.channel
-  descricao = eventData.data.conversation.messages[0].content
+}
+)
+
+function getAttributes() {
+  responsavel = contexto.data.currentAgent.name
+  cliente = contexto.data.contact.name
+  telefone = contexto.data.contact.phone_number
+  redeEscolar = contexto.data.conversation.labels[0]
+  usuario = contexto.data.contact.custom_attributes.tipo_do_usuario
+  canal = contexto.data.conversation.meta.channel
+  descricao = contexto.data.conversation.messages[0].content
   console.log({
     responsavel: responsavel,
     redeEscolar: redeEscolar,
@@ -32,7 +36,6 @@ const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEs
     canal: canal
   })
 }
-)
 
 function postContext() {
   let mutation = `
