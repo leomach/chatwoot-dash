@@ -253,7 +253,7 @@ function getAttributes() {
   let canalPipe = getCanalID(contexto.data.conversation.meta.channel)
   canal = canalPipe
 
-  let mensagens = context.data.conversation.messages
+  let mensagens = contexto.data.conversation.messages
   descricao = mensagens[mensagens.length - 1].content
 
   console.log({
