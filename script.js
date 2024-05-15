@@ -304,19 +304,19 @@ function postContext() {
 }
 
 function getResponsavelID(nome) {
-  let responsavel = membros.find(e => element.user.name === nome)
+  let responsavel = membros.find(e => e.user.name === nome)
   let id = responsavel.user.id
   return id;
 }
 
 function getEscolaID(nome) {
-  let escola = escolas.find(e => element.node.title === nome)
+  let escola = escolas.find(e => e.node.title === nome)
   let id = escola.node.id
   return id;
 }
 
 function getCanalID(nome) {
-  let canal = canais.find(e => element.chat === nome)
+  let canal = canais.find(e => e.chat === nome)
   let id = canal.pipe
   return id;
 }
