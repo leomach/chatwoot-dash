@@ -250,7 +250,7 @@ function getAttributes() {
 
   usuario = contexto.data.contact.custom_attributes.tipo_do_usuario
 
-  let canalPipe = getCanalID(contexto.data.conversation.meta.channel)
+  let canalPipe = getCanalID(contexto.data.conversation.channel)
   canal = canalPipe
 
   let mensagens = contexto.data.conversation.messages
