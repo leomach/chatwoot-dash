@@ -311,6 +311,7 @@ function getResponsavelID(nome) {
 
 function getEscolaID(nome) {
   let escola = escolas.find(e => e.node.title === nome)
+  console.log(escola)
   let id = escola.node.id
   return id;
 }
