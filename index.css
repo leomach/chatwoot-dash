@@ -73,5 +73,11 @@ body {
 }
 
 .display {
-    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(17, 52, 213);
 }
