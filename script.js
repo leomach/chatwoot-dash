@@ -272,9 +272,13 @@ function getAttributes() {
   }
 
   let display = document.getElementsByClassName('display');
+  console.log(display)
   let paragrafo = document.createElement('p');
+  console.log(paragrafo)
   paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} com o chamado descrito a seguir: ${descricao}`
+  console.log(paragrafo)
   display.appendChild(paragrafo);
+  console.log(display)
 }
 
 function postContext() {
