@@ -274,7 +274,7 @@ function getAttributes() {
   let display = document.getElementsByClassName('display');
   let paragrafo = document.createElement('p');
   paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} com o chamado descrito a seguir: ${descricao}`
-  display.append(paragrafo);
+  display.appendChild(paragrafo);
 }
 
 function postContext() {
@@ -317,15 +317,17 @@ let results = fetch('https://api.pipefy.com/graphql', {
   
   let display = document.getElementsByClassName('display');
   let paragrafo = document.createElement('p');
+  paragrafo.style = 'color: green;'
   paragrafo.innerHTML = `O card foi criado com sucesso no Pipefy`
-  display.append(paragrafo);
+  display.appendChild(paragrafo);
 })
 .catch(erro => {
   console.log(erro)
   let display = document.getElementsByClassName('display');
   let paragrafo = document.createElement('p');
+  paragrafo.style = 'color: red;'
   paragrafo.innerHTML = `Houve um erro na requisição do Pipefy: ${erro}`
-  display.append(paragrafo);
+  display.appendChild(paragrafo);
 
   });
 }
