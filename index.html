@@ -8,19 +8,20 @@
 </head>
 <body>
     <div class="titulo">
-        <h1 class="titulo-text">App ChatDash Test</h1>
+        <img class="logo" src="./public/icon.png" alt="Logo Cogtech">
+        <h1 class="titulo-text">CHATWOOT > PIPE</h1>
     </div>
-    <div class="dashboard">
-        <h3>Botão de teste:</h3>
-        <button onclick="getContext()">Tentar</button>
+    <div class="dash">
+        <div class="item">
+            <h3 class="titulo-item">ATRIBUTOS</h3>
+            <button class="button-item" onclick="getAttributes()">PEGAR</button>
+        </div>
+        <div class="item">
+            <h3 class="titulo-item">PIPEFY</h3>
+            <button class="button-item" onclick="postContext()">MANDAR</button>
+        </div>
     </div>
-    <div class="dashboard">
-        <h3>Atributos:</h3>
-        <button onclick="getAttributes()">Tentar capturar atributos</button>
-    </div>
-    <div class="dashboard">
-        <h3>Criar o post:</h3>
-        <button onclick="postContext()">Tentar criar o post</button>
+    <div class="display">
     </div>
 </body>
 <script src="./script.js"></script>

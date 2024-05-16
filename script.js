@@ -261,12 +261,20 @@ function getAttributes() {
   let mensagens = contexto.data.conversation.messages
   descricao = mensagens[mensagens.length - 1].content
 
-  console.log({
+  let informacoes = {
     responsavel: responsavel,
+    cliente: cliente,
+    telefone: telefone,
     redeEscolar: redeEscolar,
     usuario: usuario,
-    canal: canal
-  })
+    canal: canal,
+    descricao: descricao
+  }
+
+  let display = document.getElementsByClassName('display');
+  let paragrafo = document.createElement('p');
+  paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} com o chamado descrito a seguir: ${descricao}`
+  display.append(paragrafo);
 }
 
 function postContext() {
@@ -286,45 +294,56 @@ function postContext() {
         {field_id: "descreve_aqui_sua_solicita_o_por_favor", field_value: "${descricao}"},
       ]
     }
-    ) {
-      card {
-        title
-      }
+  ) {
+    card {
+      title
     }
-  }`
+  }
+}`
 
-  let results = fetch('https://api.pipefy.com/graphql', {
-    method: 'POST',
+let results = fetch('https://api.pipefy.com/graphql', {
+  method: 'POST',
+  
+  headers: {
+    "Content-Type": "application/json",
+    "Authorization": `Bearer ${token}`
+  },
+  
+  body: JSON.stringify({ query: mutation })
+})
+.then(res => res.json())
+.then(json => {
+  console.log(json)
+  
+  let display = document.getElementsByClassName('display');
+  let paragrafo = document.createElement('p');
+  paragrafo.innerHTML = `O card foi criado com sucesso no Pipefy`
+  display.append(paragrafo);
+})
+.catch(erro => {
+  console.log(erro)
+  let display = document.getElementsByClassName('display');
+  let paragrafo = document.createElement('p');
+  paragrafo.innerHTML = `Houve um erro na requisição do Pipefy: ${erro}`
+  display.append(paragrafo);
 
-    headers: {
-      "Content-Type": "application/json",
-      "Authorization": `Bearer ${token}`
-    },
-
-    body: JSON.stringify({ query: mutation })
-  })
-  .then(res => res.json())
-  .then(console.log)
-  .catch(console.error);
+  });
 }
 
 function getResponsavelID(nome) {
   let responsavel = membros.find(e => e.user.name == nome)
-  console.log(responsavel)
   let id = responsavel.user.id
   return id;
 }
 
 function getEscolaID(nome) {
   let escola = escolas.find(e => e.node.title == nome)
-  console.log(escola)
   let id = escola.node.id
   return id;
 }
 
 function getCanalID(nome) {
   let canal = canais.find(e => e.chat == nome)
-  console.log(canal)
   let id = canal.pipe
   return id;
 }
