@@ -277,7 +277,7 @@ function getAttributes() {
   console.log(paragrafo)
   paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} com o chamado descrito a seguir: ${descricao}`
   console.log(paragrafo)
-  display.innerHTML(paragrafo);
+  display.append(paragrafo);
   console.log(display)
 }
 
