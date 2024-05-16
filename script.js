@@ -271,13 +271,13 @@ function getAttributes() {
     descricao: descricao
   }
 
-  let display = document.getElementsByClassName('display');
+  let display = document.getElementsByClassName('display')[0];
   console.log(display)
   let paragrafo = document.createElement('p');
   console.log(paragrafo)
   paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} com o chamado descrito a seguir: ${descricao}`
   console.log(paragrafo)
-  document.getElementsByClassName('display').innerHTML(paragrafo);
+  display.innerHTML(paragrafo);
   console.log(display)
 }
 
