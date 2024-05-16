@@ -250,8 +250,13 @@ function getAttributes() {
 
   usuario = contexto.data.contact.custom_attributes.tipo_do_usuario
 
-  let canalPipe = getCanalID(contexto.data.conversation.meta.channel)
-  canal = canalPipe
+  if(contexto.data.conversation.meta.channel == undefined) {
+    let canalPipe = getCanalID(contexto.data.conversation.channel)
+    canal = canalPipe
+  } else {
+    let canalPipe = getCanalID(contexto.data.conversation.meta.channel)
+    canal = canalPipe
+  }
 
   let mensagens = contexto.data.conversation.messages
   descricao = mensagens[mensagens.length - 1].content
