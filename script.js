@@ -319,19 +319,19 @@ let results = fetch('https://api.pipefy.com/graphql', {
 .then(json => {
   console.log(json)
   
-  let display = document.getElementsByClassName('display');
+  let display = document.getElementsByClassName('display')[0];
   let paragrafo = document.createElement('p');
   paragrafo.style = 'color: green;'
   paragrafo.innerHTML = `O card foi criado com sucesso no Pipefy`
-  display.appendChild(paragrafo);
+  display.append(paragrafo);
 })
 .catch(erro => {
   console.log(erro)
-  let display = document.getElementsByClassName('display');
+  let display = document.getElementsByClassName('display')[0];
   let paragrafo = document.createElement('p');
   paragrafo.style = 'color: red;'
   paragrafo.innerHTML = `Houve um erro na requisição do Pipefy: ${erro}`
-  display.appendChild(paragrafo);
+  display.append(paragrafo);
 
   });
 }
