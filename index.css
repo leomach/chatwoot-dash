@@ -52,6 +52,12 @@ body {
     border-radius: 20px;
 }
 
+.item p {
+    color: rgba(203, 201, 227, 0.844);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
 .titulo-item {
     font-family: sans-serif;
     color: rgb(232,232,232);
@@ -80,4 +86,57 @@ body {
     justify-content: center;
     font-family: sans-serif;
     color: rgb(17, 52, 213);
+    padding-bottom: 30px;
+}
+
+.retorno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    background-color: rgb(17, 52, 213);
+}
+
+.title-retorno {
+    font-family: sans-serif;
+    color: rgb(232,232,232);
+    padding-bottom: 10px;
+}
+
+.retorno button {
+    margin-bottom: 30px;
+}
+
+.cards {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: rgb(232,232,232);
+}
+
+.card-h4 {
+    font-family: sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.card-p {
+    font-family: sans-serif;
+    text-align: center;
 }

@@ -13,16 +13,23 @@
     </div>
     <div class="dash">
         <div class="item">
+            <p>Etapa 1</p>
             <h3 class="titulo-item">ATRIBUTOS</h3>
             <button class="button-item" onclick="getAttributes()">PEGAR</button>
         </div>
         <div class="item">
+            <p>Etapa 2</p>
             <h3 class="titulo-item">PIPEFY</h3>
             <button class="button-item" onclick="postContext()">MANDAR</button>
         </div>
     </div>
-    <div class="display">
+    <div class="display"></div>
+    <div class="retorno">
+        <h2 class="title-retorno">RETORNO AO CLIENTE</h2>
+        <button onclick="getPhase()" class="button-item">Buscar</button>
+        <div class="cards"></div>
     </div>
 </body>
-<script src="./script.js"></script>
+<script src="./criarCard.js"></script>
+<script src="./pegarEtapaRetorno.js"></script>
 </html>
