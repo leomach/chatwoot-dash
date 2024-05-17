@@ -279,7 +279,7 @@ function getAttributes() {
   console.log(display)
   let paragrafo = document.createElement('p');
   console.log(paragrafo)
-  paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} pelo motivo de ${motivo}: ${descricao} [[[ O CARD FOI MOVIDO PARA: ${etapa} ]]]`
+  paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} pelo motivo de ${motivo}: ${descricao} [[[ O CARD IRÁ SER MOVIDO PARA: ${etapa} ]]]`
   console.log(paragrafo)
   display.append(paragrafo);
   console.log(display)
