@@ -228,6 +228,7 @@ var tipo = ''
 var canal = ''
 var descricao = ''
 var motivo = ''
+var etapa = ''
 
 const token = 'eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJQaXBlZnkiLCJpYXQiOjE3MTUzNTA3MjEsImp0aSI6ImIxYjMzNGE1LWZhNDEtNDg3Ni1iMTVkLTRiZmI0NWU0ZjRlNCIsInN1YiI6MzA0Nzc5MDYwfQ.RSkmIyHUhIbarqTWY9bgQbDwfgEwSwMGB7Z-l_CjYpI3rdvnQSQ2ronfdajjKnXs36WHg5HPCooL8UOIFhiFNg'
 
@@ -251,6 +252,7 @@ function getAttributes() {
 
   usuario = contexto.data.contact.custom_attributes.tipo_do_usuario
   motivo = contexto.data.contact.custom_attributes.motivo_do_contato
+  etapa = contexto.data.contact.custom_attributes.etapa_de_atendimento
 
   if(contexto.data.conversation.meta.channel == undefined) {
     let canalPipe = getCanalID(contexto.data.conversation.channel)
@@ -277,7 +279,7 @@ function getAttributes() {
   console.log(display)
   let paragrafo = document.createElement('p');
   console.log(paragrafo)
-  paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} pelo motivo de ${motivo}: ${descricao}`
+  paragrafo.innerHTML = `O cliente ${cliente}, com o telefone ${telefone}, da rede escolar de ${redeEscolar} foi atendido por: ${responsavel}. Se trata de um usuário do tipo ${usuario} que entrou em contato pelo ${canal} pelo motivo de ${motivo}: ${descricao} [[[ O CARD FOI MOVIDO PARA: ${etapa} ]]]`
   console.log(paragrafo)
   display.append(paragrafo);
   console.log(display)
@@ -296,6 +298,7 @@ function postContext() {
         {field_id: "rede_escolarr", field_value: "${redeEscolar}"},
         {field_id: "selecione_qual_o_seu_tipo_de_usu_rio_por_favor", field_value: "${usuario}"},
         {field_id: "tipo_de_solicita_o", field_value: "${motivo}"},
+        {field_id: "copy_of_tipo_de_solicita_o", field_value: "${etapa}"},
         {field_id: "canal_de_atendimento", field_value: "${canal}"},
         {field_id: "descreve_aqui_sua_solicita_o_por_favor", field_value: "${descricao}"},
       ]
