@@ -1,7 +1,7 @@
 function getPhase() {
   let query = `
   query {
-    phase(id: 309289560) {
+    phase(id: 319705813) {
       cards {
         nodes {
           id
