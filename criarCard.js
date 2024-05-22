@@ -206,6 +206,12 @@ var escolas = [
       "id": "931249398",
       "title": "saojoaquim"
     }
+  },
+  {
+    "node": {
+      "id": "932024092",
+      "title": "jacuipe"
+    }
   }
 ]
 
